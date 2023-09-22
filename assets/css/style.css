@@ -780,7 +780,9 @@ body {
   /**
    * REUSED STYLE
    */
-
+  .header {
+    height: min-content;
+  }
   .container {
     max-width: 540px;
     width: 100%;
@@ -1275,81 +1277,3 @@ margin-bottom: 20px;
 
 /* // * Media Queries for Responsiveness */
 /* * CONTACT CSS */
-.contact {
-margin-top: 40px;
-}
-.container .contact-banner {
-width: 1200px;
-height: 600px;
-background: var(--white);
-margin-top: 45px;
-display: flex;
-flex-wrap: wrap;
-}
-.contact-input {
-height: 100%;
-width: 60%;
-background: transparent;
-}
-.contact-input li {
-display: flex;
-margin: 60px;
-gap: 100px;
-align-items: center;
-
-}
-.contact-input li h3 {
-color: #777;
-
-}
-.contact-input li input {
-background: transparent;
-border: 1px solid var(--pumpkin);
-padding: 15px;
-width: 400px;
-border-radius: 10px;
-}
-.contact-input.textarea input {
-margin-left: 20px;
-}
-.contact-input button {
-margin-left: 30%;
-padding: 20px 100px;
-font-size: large;
-font-weight: 500;
-
-}
-.contact-info {
-height: 100%;
-width: 40%;
-color: var(--cultured-3);
-background: var(--pumpkin);
-}
-.contact-info h1 {
-margin: 20px 50px;
-}
-.contact-info p {
-margin: 10px 20px;
-font-weight: 400;
-}
-.contact-info ul {
-margin: 80px 50px;
-display: block;
-}
-.contact-info ul li {
-margin: 50px;
-}
-.contact-info ul li a {
-font-size: 30px;
-}
-
-
-/* #Blog css is reused as #Team member css  everywhere here*/
-
-.card-meta-item ul li {
-margin-top: 10px;
-margin-bottom: 10px;
-}
-.card-meta-item.social-link.social-link {
-color: #777;
-}
