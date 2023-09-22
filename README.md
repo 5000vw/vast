@@ -1,54 +1,56 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vast)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vast?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vast?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/igNpJ21Hglk?style=social)](https://youtu.be/igNpJ21Hglk)
+# KCSE Robot Website
 
-  <br />
-  <br />
+![KCSE Robot Logo](logo.png)
 
-  <h2 align="center">VAST - App Landing Page</h2>
+Welcome to the KCSE Robot Website repository! This repository contains the source code and assets for the KCSE Robot website.
 
-  VAST is a fully responsive app landing page, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+## About KCSE Robot
 
-  <a href="https://codewithsadee.github.io/vast/"><strong>➥ Live Demo</strong></a>
+KCSE Robot is an innovative platform designed to simplify KCSE (Kenya Certificate of Secondary Education) result management for schools in Kenya. Our platform automates the process of reading and analyzing KCSE results received via SMS, helping schools streamline their result management workflows.
 
-</div>
+## Features
 
-<br />
+- **Automated Result Analysis:** KCSE Robot automatically extracts and analyzes KCSE results from KNEC SMS messages, eliminating the need for manual data entry.
 
-### Demo Screeshots
+- **Error-Free Results:** We guarantee 100% accurate result analysis from KNEC SMS, ensuring data integrity and reliability.
 
-![VAST Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+- **Wide Range Analysis:** Get results in various formats, including merit lists, subject-wise analysis, stream-wise analysis, and gender-based analysis.
 
-### Prerequisites
+- **Distributed SMS Reading:** Query results using different phones, and KCSE Robot merges results in real-time from all connected devices.
 
-Before you begin, ensure you have met the following requirements:
+- **Instant Printing and Export:** Print results instantly with the desktop version or export to PDF or Excel. Share via WhatsApp with the Android version.
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- **Automated Account Registration:** Easy school account registration and subscription management.
 
-### Run Locally
+## Getting Started
 
-To run **VAST** locally, run this command on your git bash:
+To get started with KCSE Robot, follow these steps:
 
-Linux and macOS:
+1. Clone this repository to your local machine:
 
-```bash
-sudo git clone https://github.com/codewithsadee/vast.git
-```
+git clone https://github.com/yourusername/kcserobot-website.git
 
-Windows:
 
-```bash
-git clone https://github.com/codewithsadee/vast.git
-```
 
-### Contact
+2. Navigate to the project directory:
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+cd kcserobot-website
 
-### License
 
-This project is **free to use** and does not contains any license.
+3. Open the `index.html` file in your web browser to view the website.
+
+## Contributing
+
+We welcome contributions from the open-source community! If you'd like to contribute to the KCSE Robot website, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+
+## Issues
+
+If you encounter any issues with the website or have suggestions for improvements, please [submit an issue](https://github.com/yourusername/kcserobot-website/issues).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Visit our website:** [https://www.kcserobot.com](https://www.kcserobot.com)
